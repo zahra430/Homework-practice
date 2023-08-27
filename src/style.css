@@ -58,14 +58,15 @@ a:hover {
     font-size: 20px;
   }
   h2 {
-    display: block;
     text-align: center;
-    margin-top: 20px;
   }
   p {
     text-align: center;
   }
-  a {
+
+  .project-link {
+    display: block;
     text-align: center;
+    margin: 0 100px;
   }
 }
