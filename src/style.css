@@ -1,0 +1,56 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+a {
+  background: var(--primary-color);
+}
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.contact-me {
+  background: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
+.about-me {
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  background: none;
+}
+.row {
+  display: flex;
+}
+.gmail {
+  background: none;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav-bg {
+  background: none;
+}
+
